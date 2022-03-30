@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<response requestID="Request001"
+          responseID="Response001"
+          senderIPAddress="IP1"
+          receiverIPAddress="IP2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="response.xsd">
+
+    <diagnosis patientID="patient#001">
+        <opinion>no-recurrence-events</opinion>
+    </diagnosis>
+
+</response>

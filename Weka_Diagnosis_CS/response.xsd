@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "diagnosis">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name = "opinion" type = "xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name = "patientID" type = "xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name = "responseID" type = "xs:string"/>
+            <xs:attribute name = "requestID" type = "xs:string"/>
+            <xs:attribute name = "senderIPAddress" type = "xs:string"/>
+            <xs:attribute name = "receiverIPAddress" type = "xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

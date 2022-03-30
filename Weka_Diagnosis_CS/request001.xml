@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<request requestID="Request001"
+         senderIPAddress="IP1"
+         receiverIPAddress="IP2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="request.xsd">
+
+    <patient patientID="patient#001">
+        <age>40-49</age>
+        <menopause>premeno</menopause>
+        <tumor-size>15-19</tumor-size>
+        <inv-nodes></inv-nodes>
+        <node-caps>yes</node-caps>
+        <deg-malig>3</deg-malig>
+        <breast>right</breast>
+        <breast-quad>left-up</breast-quad>
+        <irradiat>no</irradiat>
+        <Class/>
+    </patient>
+
+</request>

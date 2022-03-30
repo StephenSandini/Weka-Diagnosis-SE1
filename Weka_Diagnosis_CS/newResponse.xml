@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response receiverIPAddress="IP1" requestID="Request001"
+    responseID="Request001" senderIPAddress="IP2">
+    <diagnosis patientID="patient#001">
+        <opinion>recurrence-events</opinion>
+    </diagnosis>
+</response>
